@@ -1,33 +1,33 @@
-%h1 Listing users
+-# %h1 Listing users
 
-%table
-  %thead
-    %tr
-      %th Id
-      %th Nickname
-      %th Email
-      %th Password
-      %th First name
-      %th Family name
-      %th Birth date
-      %th
-      %th
-      %th
+-# %table
+-#   %thead
+-#     %tr
+-#       %th Id
+-#       %th Nickname
+-#       %th Email
+-#       %th Password
+-#       %th First name
+-#       %th Family name
+-#       %th Birth date
+-#       %th
+-#       %th
+-#       %th
 
-  %tbody
-    - @users.each do |user|
-      %tr
-        %td= user.id
-        %td= user.nickname
-        %td= user.email
-        %td= user.password
-        %td= user.first_name
-        %td= user.family_name
-        %td= user.birth_date
-        %td= link_to 'Show', user
-        %td= link_to 'Edit', edit_user_path(user)
-        %td= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' }
+-#   %tbody
+-#     - @users.each do |user|
+-#       %tr
+-#         %td= user.id
+-#         %td= user.nickname
+-#         %td= user.email
+-#         %td= user.password
+-#         %td= user.first_name
+-#         %td= user.family_name
+-#         %td= user.birth_date
+-#         %td= link_to 'Show', user
+-#         %td= link_to 'Edit', edit_user_path(user)
+-#         %td= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' }
 
-%br
+-# %br
 
-= link_to 'New User', new_user_path
+-# = link_to 'New User', new_user_path
