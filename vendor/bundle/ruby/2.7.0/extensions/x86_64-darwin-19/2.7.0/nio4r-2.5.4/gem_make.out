@@ -1,5 +1,5 @@
 current directory: /Users/junichi/projects/Foreman365/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.4/ext/nio4r
-/Users/junichi/.rbenv/versions/2.7.2/bin/ruby -I /Users/junichi/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201031-27455-1tfz2l.rb extconf.rb
+/Users/junichi/.rbenv/versions/2.7.2/bin/ruby -I /Users/junichi/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201031-45304-atlbd9.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for sys/select.h... yes
@@ -99,4 +99,4 @@ linking shared-object nio4r_ext.bundle
 
 current directory: /Users/junichi/projects/Foreman365/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.4/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20201031-27455-kvez2t
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20201031-45304-1x0nt4v
