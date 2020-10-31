@@ -50,6 +50,7 @@ test:
 production:
   <<: *default
   database: Foreman365_production
+  url: <%= ENV['DATABASE_URL'] %>
   username: Foreman365
   password: <%= ENV['FOREMAN365_DATABASE_PASSWORD'] %>
   adapter: postgresql
