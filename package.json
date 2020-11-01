@@ -1,11 +1,3 @@
-{
-  "name": "Foreman365",
-  "private": true,
-  "dependencies": {
-    "serve": "^11.3.2"
-  }
-}
-
 "scripts": {
   "dev": "react-scripts start",
   "heroku-postbuild": "npm run build",
