@@ -8,14 +8,14 @@
 #
 # And be sure to use new-style password hashing:
 #   https://dev.mysql.com/doc/refman/5.7/en/password-hashing.html
-# #
-# default: &default
-#   adapter: mysql2
-#   encoding: utf8
-#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-#   username: root
-#   password: rcsc7241
-#   socket: /tmp/mysql.sock
+#
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: rcsc7241
+  socket: /tmp/mysql.sock
 
 development:
   <<: *default
@@ -47,12 +47,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: Foreman365_production
-  url: <%= ENV['DATABASE_URL'] %>
-  username: Foreman365
-  password: <%= ENV['FOREMAN365_DATABASE_PASSWORD'] %>
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
+# production:
+#   <<: *default
+#   database: Foreman365_production
+#   username: Foreman365
+#   password: <%= ENV['FOREMAN365_DATABASE_PASSWORD'] %>
